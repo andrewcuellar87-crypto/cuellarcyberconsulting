@@ -1,0 +1,2 @@
+
+document.addEventListener('DOMContentLoaded',()=>{const buttons=[...document.querySelectorAll('[data-filter]')];const cards=[...document.querySelectorAll('[data-tags]')];buttons.forEach(btn=>btn.addEventListener('click',()=>{buttons.forEach(b=>b.classList.remove('active'));btn.classList.add('active');const f=btn.dataset.filter;cards.forEach(c=>{c.style.display=(f==='all'||c.dataset.tags.includes(f))?'':'none';});}));});

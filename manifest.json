@@ -1,0 +1,34 @@
+{
+  "version": "2.0",
+  "root": "C:\\Users\\andre\\upwork-cybersecurity-portfolio-v2",
+  "created_by": "Hermes Agent",
+  "projects": [
+    {
+      "title": "Enterprise AI Security Monitoring & Governance",
+      "page": "case-studies/01-ai-governance.html",
+      "thumbnail": "assets/thumbnails/01-ai-governance-thumbnail.png"
+    },
+    {
+      "title": "Security Investigation Dashboard",
+      "page": "case-studies/02-investigation-dashboard.html",
+      "thumbnail": "assets/thumbnails/02-investigation-dashboard-thumbnail.png"
+    },
+    {
+      "title": "Detection Engineering & Threat Investigation",
+      "page": "case-studies/03-detection-engineering.html",
+      "thumbnail": "assets/thumbnails/03-detection-engineering-thumbnail.png"
+    },
+    {
+      "title": "PowerShell Security Automation",
+      "page": "case-studies/04-powershell-automation.html",
+      "thumbnail": "assets/thumbnails/04-powershell-automation-thumbnail.png"
+    },
+    {
+      "title": "Executive Cybersecurity Metrics Dashboard",
+      "page": "case-studies/05-executive-metrics.html",
+      "thumbnail": "assets/thumbnails/05-executive-metrics-thumbnail.png"
+    }
+  ],
+  "nda_safe": true,
+  "v1_preserved": "C:\\Users\\andre\\upwork-cybersecurity-portfolio"
+}
