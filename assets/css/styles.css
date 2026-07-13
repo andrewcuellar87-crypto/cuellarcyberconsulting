@@ -50,3 +50,6 @@ html,body{max-width:100%;overflow-x:clip}.wrap,.nav,.hero-grid,.about-grid,.sect
   .case-section table td{border:0!important;padding:4px 0!important}
   .case-section table td:first-child{color:var(--cyan);font-weight:800;font-size:15px}
 }
+
+/* iOS Safari/touch filter safeguards: preserve approved button appearance while ensuring taps reach real buttons. */
+.toolbar{position:relative;z-index:3}.filter{position:relative;z-index:4;pointer-events:auto;touch-action:manipulation;-webkit-tap-highlight-color:rgba(34,211,238,.22);cursor:pointer}.case-card[hidden]{display:none!important}.case-card>img,.visual img{pointer-events:none}
